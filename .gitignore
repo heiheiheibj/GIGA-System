@@ -1,0 +1,43 @@
+# Visual Studio / .NET 相关
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.dll.refresh
+*.pdb
+*.exe
+_ReSharper*/
+*.ReSharper*
+packages/
+*.nupkg
+
+# 临时文件和备份
+**/[Tt]emp/
+**/*[Bb]ackup*/
+**/*[Bb]ack[Uu]p*/
+**/*- 副本*
+**/*.bak
+**/*.tmp
+**/*.temp
+
+# 日志文件
+Logs/
+*.log
+
+# 用户上传的文件（可能不需要版本控制）
+Uploads/
+
+# 配置文件（可能包含敏感信息）
+# 注意：如果Web.config包含敏感信息，请移除这些注释
+# Web.config
+# Web.*.config
+
+# IDE 相关文件
+.vscode/
+*.sln.docstates
+
+# 其他
+.DS_Store
+Thumbs.db
